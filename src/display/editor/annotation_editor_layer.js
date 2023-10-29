@@ -435,7 +435,7 @@ class AnnotationEditorLayer {
    * @param {AnnotationEditor} editor
    */
   addOrRebuild(editor) {
-    console.log("addOrRebuild2")
+    console.log("addOrRebuild2");
     if (editor.needsToBeRebuilt()) {
       editor.parent ||= this;
       editor.rebuild();
